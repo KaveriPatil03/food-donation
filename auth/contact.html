@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hunger.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START OF HEADER -->
+    <section class="header">
+        <div>
+            <!-- Start of navbar -->
+            <div class="conatiner-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id='nav'>
+                    <div class="container-fluid mx-5 py-2">
+                        <a class="navbar-brand" href="../index.html">Food-<span class="nb">Donation</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="hunger_in_india.html">Hunger in India</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="campaign.html">Campaign</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <div class="button">
+                                        <a class="nav-link" href="donate.html">Donate Now</a>
+                                    </div>
+                                </li>
+
+                                <!-- <li class="nav-item px-2">
+                                    <button class="btn btn-outline-success" type="submit">
+                                        <a href="auth/donate.html">Donate Now</a>
+                                    </button>
+                                </li> -->
+
+                            </ul>
+
+
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- End of navbar -->
+
+            <!-- slider -->
+            <div class="hunger_slider">
+                <!-- <div class="d-flex justify-content-center"> -->
+
+                <h1 data-aos="zoom-in" data-aos-duration="1200">Contact Us</h1>
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-3" data-aos="zoom-in" data-aos-duration="1200">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+                    </ol>
+                </nav>
+                <!-- </div> -->
+            </div>
+            <!-- slider end -->
+        </div>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- CONTACT US -->
+    <section class="contact" data-aos="zoom-in-up" data-aos-duration="1200">
+        <div>
+            <div class="container mb-5">
+                <div class="d-flex justify-content-center">
+                    <!-- <h2 class="pt-5">Contact</h2> -->
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-9">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label"></label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="emailid" class="form-label"></label>
+                                <input type="email" class="form-control" id="emailid" placeholder="Email">
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label"></label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label"></label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="d-grid gap-2 col-2 mx-auto btn btn-primary">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="position-absolute pt-4 fs-5">
+                            <h4>Reach out to us!</h4>
+                            <div class="contact-us pt-2">
+                                <p>
+                                    <i class="fa fa-envelope pe-2"></i>
+                                    fooddonation@gmail.com
+                                </p>
+
+                            </div>
+                            <div class="contact-us">
+                                <p>
+                                <i class="fa fa-phone pe-2"></i>
+                                9876542011
+                                </p>
+                            </div>
+                            <div class="contact-us">
+                                <p>
+                                <i class="fa fa-globe pe-2"></i>
+                                www.fooddonation.com
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+    </section>
+    <!-- END OF CONTACT US -->
+
+    <!-- FOOTER START -->
+    <section class="footer pt-4">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-4">
+                        <form>
+                            <h3 class="text-white">Food-Donation</h3>
+                            <p>Registered as Hunger Heroes. Under Indian Society Registration Act XXI, 1860.</p>
+                            <p>All donations are tax-exempted as eligible under section 80G of the the Income Tax Act,
+                                1961.</p>
+                        </form>
+                    </div>
+
+                    <div class="col-2 offset-1">
+                        <h5>Get To Know Us</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white">Abou
+                                    Us</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html"
+                                    class="nav-link p-0 text-white">Hunger in India</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="campaign.html"
+                                    class="nav-link p-0 text-white">Campaign</a></li>
+                            <li class="nav-item mb-2"><a href="../index.html#ourVolunteers"
+                                    class="nav-link p-0 text-white">Volunteer</a></li>
+                            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-white">Contact
+                                    Us</a></li>
+                            <li class="nav-item mb-2"><a href="about.html#faqs" class="nav-link p-0 text-white">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Get Involved</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Make a
+                                    Donation</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Give
+                                    Once</a></li>
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Give
+                                    Monthly</a></li>
+                            <li class="nav-item mb-2"><a href="donate.html"
+                                    class="nav-link p-0 text-white">Fundraise</a></li>
+                            <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">More Ways to Give</a> -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Hunger Facts</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hunger"
+                                    class="nav-link p-0 text-white">What is Hunger</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hungerInIndia"
+                                    class="nav-link p-0 text-white">Hunger in India</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hungerInIndia"
+                                    class="nav-link p-0 text-white">State of Hunger
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#keyFacts"
+                                    class="nav-link p-0 text-white">Key Facts</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#impact"
+                                    class="nav-link p-0 text-white">Impact of Hunger</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-between py-5 my-5 border-top">
+                    <p>© 2021 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-twitter fa-2x"></i></a>
+
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-facebook fa-2x"></i></a>
+
+                    </ul>
+                </div>
+
+                <!-- Back to top button -->
+                <button type="button" class="btn btn-outline-success btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </footer>
+
+        </div>
+    </section>
+    <!-- FOOTER END -->
+
+    
+    <!-- js -->
+    <script src="../js/script.js"></script>
+    <!-- bootstrap -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

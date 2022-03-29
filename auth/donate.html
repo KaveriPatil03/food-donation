@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hunger.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START OF HEADER -->
+    <section class="header">
+        <div>
+            <!-- Start of navbar -->
+            <div class="conatiner-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id='nav'>
+                    <div class="container-fluid mx-5 py-2">
+                        <a class="navbar-brand" href="../index.html">Food-<span class="nb">Donation</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="hunger_in_india.html">Hunger in India</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="campaign.html">Campaign</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <div class="button">
+                                        <a class="nav-link active" href="donate.html">Donate Now</a>
+                                    </div>
+                                </li>
+
+                                <!-- <li class="nav-item px-2">
+                                    <button class="btn btn-outline-success" type="submit">
+                                        <a href="auth/donate.html">Donate Now</a>
+                                    </button>
+                                </li> -->
+
+                            </ul>
+
+
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- End of navbar -->
+
+            <!-- slider -->
+            <div class="hunger_slider">
+                <!-- <div class="d-flex justify-content-center"> -->
+
+                <h1 data-aos="zoom-in" data-aos-duration="2000">Donate Now</h1>
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-3" data-aos="zoom-in" data-aos-duration="2000">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Donate Now</li>
+                    </ol>
+                </nav>
+                <!-- </div> -->
+            </div>
+            <!-- slider end -->
+        </div>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- START -->
+    <section class="donation">
+        <div class="wrapper py-5">
+            <div class="container">
+                <div class="text-center">
+                    <!-- <h2>Shop by category</h2> -->
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="jwellery-tab" data-bs-toggle="tab"
+                                    data-bs-target="#jwellery" type="button" role="tab" aria-controls="jwellery"
+                                    aria-selected="true">Donate Once</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="diamond-tab" data-bs-toggle="tab" data-bs-target="#diamond"
+                                    type="button" role="tab" aria-controls="diamond" aria-selected="true">Donate
+                                    Monthly</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="jwellery" role="tabpanel"
+                                aria-labelledby="jwellery-tab">
+                                <div class="row my-3" data-aos="zoom-in-up" data-aos-duration="1200">
+                                    <form class="row gx-3 gy-2 mt-3 align-items-center">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden" for="specificSizeInputName">Fname</label>
+                                                <input type="text" class="form-control" id="specificSizeInputName"
+                                                    placeholder="First Name">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Lname</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-2">
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden" for="specificSizeInputName">Email</label>
+                                                <input type="email" class="form-control" id="specificSizeInputName"
+                                                    placeholder="Email">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Phone Number</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="Phone Number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-sm-6 col-md-4">
+                                                <label class="visually-hidden" for="specificSizeInputName">State</label>
+                                                <input type="email" class="form-control" id="specificSizeInputName"
+                                                    placeholder="State">
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">City</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="City">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Postal Code</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="Postal Code">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5>Payment Information</h5>
+                                        <div class="row mt-2">
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputName">Amount</label>
+                                                <input type="email" class="form-control" id="specificSizeInputName"
+                                                    placeholder="Amount">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Credit Card Number</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername"
+                                                        placeholder="Credit Card Number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+
+
+                                            <div class="col-sm-12 col-md-4">
+                                                <label class="visually-hidden" for="specificSizeSelect"></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text">Expiry Month</div>
+                                                    <select class="form-select" id="specificSizeSelect">
+                                                        <option selected>01</option>
+                                                        <option value="1">01</option>
+                                                        <option value="2">02</option>
+                                                        <option value="3">03</option>
+                                                        <option value="4">04</option>
+                                                        <option value="5">05</option>
+                                                        <option value="6">06</option>
+                                                        <option value="7">07</option>
+                                                        <option value="8">08</option>
+                                                        <option value="9">09</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-sm-12 col-md-4">
+                                                <label class="visually-hidden" for="specificSizeSelect"></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text">Expiry Year</div>
+                                                    <select class="form-select" id="specificSizeSelect">
+                                                        <option selected>2022</option>
+                                                        <option value="1">2022</option>
+                                                        <option value="2">2023</option>
+                                                        <option value="3">2024</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-sm-12 col-md-4">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Username</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text">CVV Number</div>
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="CVV">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-2">
+                                            <div class="col-12">
+
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-12 mt-4 ">
+                                            <button type="submit"
+                                                class="d-grid gap-2 col-2 mx-auto btn btn-primary">Donate Now
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="diamond" role="tabpanel" aria-labelledby="diamond-tab">
+                                <div class="row my-3" data-aos="zoom-in-up" data-aos-duration="1200">
+                                    <form class="row gx-3 gy-2 mt-3 align-items-center">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden" for="specificSizeInputName">Fname</label>
+                                                <input type="text" class="form-control" id="specificSizeInputName"
+                                                    placeholder="First Name">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Lname</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-2">
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden" for="specificSizeInputName">Email</label>
+                                                <input type="email" class="form-control" id="specificSizeInputName"
+                                                    placeholder="Email">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Phone Number</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="Phone Number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-sm-6 col-md-4">
+                                                <label class="visually-hidden" for="specificSizeInputName">State</label>
+                                                <input type="email" class="form-control" id="specificSizeInputName"
+                                                    placeholder="State">
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">City</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="City">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Postal Code</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="Postal Code">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5>Payment Information</h5>
+                                        <div class="row mt-2">
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputName">Amount</label>
+                                                <input type="email" class="form-control" id="specificSizeInputName"
+                                                    placeholder="Amount">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Credit Card Number</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername"
+                                                        placeholder="Credit Card Number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+
+
+                                            <div class="col-sm-12 col-md-4">
+                                                <label class="visually-hidden" for="specificSizeSelect"></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text">Expiry Month</div>
+                                                    <select class="form-select" id="specificSizeSelect">
+                                                        <option selected>01</option>
+                                                        <option value="1">01</option>
+                                                        <option value="2">02</option>
+                                                        <option value="3">03</option>
+                                                        <option value="4">04</option>
+                                                        <option value="5">05</option>
+                                                        <option value="6">06</option>
+                                                        <option value="7">07</option>
+                                                        <option value="8">08</option>
+                                                        <option value="9">09</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-sm-12 col-md-4">
+                                                <label class="visually-hidden" for="specificSizeSelect"></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text">Expiry Year</div>
+                                                    <select class="form-select" id="specificSizeSelect">
+                                                        <option selected>2022</option>
+                                                        <option value="1">2022</option>
+                                                        <option value="2">2023</option>
+                                                        <option value="3">2024</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-sm-12 col-md-4">
+                                                <label class="visually-hidden"
+                                                    for="specificSizeInputGroupUsername">Username</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text">CVV Number</div>
+                                                    <input type="text" class="form-control"
+                                                        id="specificSizeInputGroupUsername" placeholder="CVV">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-2">
+                                            <div class="col-12">
+
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                    placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-12 mt-4 ">
+                                            <button type="submit"
+                                                class="d-grid gap-2 col-2 mx-auto btn btn-primary">Donate
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END -->
+
+    <!-- START OF HOW WILL YOUR DONATIONS BE USED -->
+    <section class="donation-used">
+        <div class="wrapper">
+            <div class="container">
+                <div class="text-center py-5" data-aos="zoom-in-up" data-aos-duration="1200">
+                    <h1>How will your donations be used?</h1>
+
+                    <div class="marterial-content pt-3">
+                        <span class="d-flex cont">
+                            <i class="fa-solid fa-arrow-right-long mt-1"></i>
+                            <p class="ms-3">Cooked meals and ration kits are prepared at a subsidized rate of ₹10 per
+                                meal.</p>
+                        </span>
+                        <span class="d-flex cont">
+                            <i class="fa-solid fa-arrow-right-long mt-1"></i>
+                            <p class="ms-3">These meals are picked up free of cost by our partner NGOs from kitchen
+                                locations and served to beneficiaries.</p>
+                        </span>
+                        <span class="d-flex cont">
+                            <i class="fa-solid fa-arrow-right-long mt-1"></i>
+                            <p class="ms-3">Beneficiaries include children, elderly, women, daily wagers, transgenders
+                                and other workers.</p>
+                        </span>
+                        <span class="d-flex cont">
+                            <i class="fa-solid fa-arrow-right-long mt-1"></i>
+                            <p class="ms-3">We ensure quality and nutrition of meals and food distribution to deserving
+                                individuals by conducting surprise audits and impact assessments.</p>
+                        </span>
+                        <span class="d-flex cont">
+                            <i class="fa-solid fa-arrow-right-long mt-1"></i>
+                            <p class="ms-3">Feeding India is a 100% not for profit organization, every rupee you donate
+                                will go towards cooking meals and feeding people.</p>
+                        </span>
+                        <span class="d-flex cont">
+                            <i class="fa-solid fa-arrow-right-long mt-1"></i>
+                            <p class="ms-3">We believe in complete transparency. Our processes are validated by Grant
+                                Thornton Bharat LLP.</p>
+                        </span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- END OF HOW WILL YOUR DONATIONS BE USED -->
+
+
+    <!-- FOOTER START -->
+    <section class="footer pt-4">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-4">
+                        <form>
+                            <h3 class="text-white">Food-Donation</h3>
+                            <p>Registered as Hunger Heroes. Under Indian Society Registration Act XXI, 1860.</p>
+                            <p>All donations are tax-exempted as eligible under section 80G of the the Income Tax Act,
+                                1961.</p>
+                        </form>
+                    </div>
+
+                    <div class="col-2 offset-1">
+                        <h5>Get To Know Us</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white">Abou
+                                    Us</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html"
+                                    class="nav-link p-0 text-white">Hunger in India</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="campaign.html"
+                                    class="nav-link p-0 text-white">Campaign</a></li>
+                            <li class="nav-item mb-2"><a href="../index.html#ourVolunteers"
+                                    class="nav-link p-0 text-white">Volunteer</a></li>
+                            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-white">Contact
+                                    Us</a></li>
+                            <li class="nav-item mb-2"><a href="about.html#faqs" class="nav-link p-0 text-white">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Get Involved</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Make a
+                                    Donation</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Give
+                                    Once</a></li>
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Give
+                                    Monthly</a></li>
+                            <li class="nav-item mb-2"><a href="donate.html"
+                                    class="nav-link p-0 text-white">Fundraise</a></li>
+                            <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">More Ways to Give</a> -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Hunger Facts</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hunger"
+                                    class="nav-link p-0 text-white">What is Hunger</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hungerInIndia"
+                                    class="nav-link p-0 text-white">Hunger in India</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hungerInIndia"
+                                    class="nav-link p-0 text-white">State of Hunger
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#keyFacts"
+                                    class="nav-link p-0 text-white">Key Facts</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#impact"
+                                    class="nav-link p-0 text-white">Impact of Hunger</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-between py-5 my-5 border-top">
+                    <p>© 2021 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-twitter fa-2x"></i></a>
+
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-facebook fa-2x"></i></a>
+
+                    </ul>
+                </div>
+
+                <!-- Back to top button -->
+                <button type="button" class="btn btn-outline-success btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </footer>
+
+        </div>
+    </section>
+    <!-- FOOTER END -->
+
+
+
+    <!-- js -->
+    <script src="../js/script.js"></script>
+    <!-- bootstrap -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

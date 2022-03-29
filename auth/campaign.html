@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hunger.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START OF HEADER -->
+    <section class="header">
+        <div>
+            <!-- Start of navbar -->
+            <div class="conatiner-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id='nav'>
+                    <div class="container-fluid mx-5 py-2">
+                        <a class="navbar-brand" href="../index.html">Food-<span class="nb">Donation</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="hunger_in_india.html">Hunger in India</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link active" href="campaign.html">Campaign</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <div class="button">
+                                        <a class="nav-link" href="donate.html">Donate Now</a>
+                                    </div>
+                                </li>
+
+                                <!-- <li class="nav-item px-2">
+                                    <button class="btn btn-outline-success" type="submit">
+                                        <a href="auth/donate.html">Donate Now</a>
+                                    </button>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- End of navbar -->
+
+            <!-- slider -->
+            <div class="hunger_slider">
+                <!-- <div class="d-flex justify-content-center"> -->
+
+                <h1 data-aos="zoom-in" data-aos-duration="1200">Campaign</h1>
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-3" data-aos="zoom-in" data-aos-duration="1200">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Campaign</li>
+                    </ol>
+                </nav>
+                <!-- </div> -->
+            </div>
+            <!-- slider end -->
+        </div>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- START OF SUPPORT -->
+    <section class="support" data-aos="fade-up" data-aos-duration="1000">
+        <div class="wrapper">
+            <div class="container">
+                <div class="text-center py-5">
+                    <h2>Your Support Matters </h2>
+                    <p>All our initiatives are designed to provide essential food support to underserved communities in
+                        the form of raw grains, freshly cooked food or packaged food products depending on the need. Our
+                        aim is to ensure, hunger never comes in the way of a brighter future.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="yourSupport">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <img src="../img/campaign/fund1.jpg" alt="" width="100%" height="100%">
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="your-support ps-2">
+                                        <h5 class="pt-5 ps-3">Fundraiser for Kids</h5>
+                                        <p class="pb-3 ps-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Mauris tempus vestib
+                                            ulum
+                                            mauris. Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <a href="auth/donate.html" class="ps-5">
+                                            <button type="button" class="btn btn-danger">Donate Now</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="names my-4">
+                                <div class="progress w-75">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                </div>
+                                <p class="">Fundraised: Rs.20,000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="yourSupport">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <img src="../img/campaign/fund2.jpg" alt="" width="100%" height="100%">
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="your-support ps-2">
+                                        <h5 class="pt-5 ps-3">Fundraiser for Kids</h5>
+                                        <p class="pb-3 ps-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Mauris tempus vestib
+                                            ulum
+                                            mauris. Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <a href="auth/donate.html" class="ps-5">
+                                            <button type="button" class="btn btn-danger">Donate Now</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="names my-4">
+                                <div class="progress w-75">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                </div>
+                                <p class="">Fundraised: Rs.20,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF SUPPORT -->
+
+    <!-- START -->
+    <section class="causes">
+        <div class="wrapper py-5">
+            <div class="conatiner py-5">
+                <div class="row mx-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="../img/campaign/cause2.webp" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="edu text-center">
+                                    <h5>Donate</h5>
+                                </div>
+                                <h5 class="card-title">Give Food to Homeless Children</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="names my-4">
+                                    <div class="progress w-100">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                    </div>
+                                    <p class="">Fundraised: Rs.20,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="../img/campaign/cause3.webp" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="edu text-center">
+                                    <h5>Donate</h5>
+                                </div>
+                                <h5 class="card-title">Give Food to Homeless Children</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="names my-4">
+                                    <div class="progress w-100">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                    </div>
+                                    <p class="">Fundraised: Rs.20,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="../img/campaign/cause4.webp" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="edu text-center">
+                                    <h5>Donate</h5>
+                                </div>
+                                <h5 class="card-title">Give Food to Homeless Children</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="names my-4">
+                                    <div class="progress w-100">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                    </div>
+                                    <p class="">Fundraised: Rs.20,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mx-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="../img/campaign/cause5.webp" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="edu text-center">
+                                    <h5>Donate</h5>
+                                </div>
+                                <h5 class="card-title">Give Food to Homeless Children</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="names my-4">
+                                    <div class="progress w-100">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                    </div>
+                                    <p class="">Fundraised: Rs.20,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="../img/campaign/cause6.webp" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="edu text-center">
+                                    <h5>Donate</h5>
+                                </div>
+                                <h5 class="card-title">Give Food to Homeless Children</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="names my-4">
+                                    <div class="progress w-100">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                    </div>
+                                    <p class="">Fundraised: Rs.20,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="../img/campaign/cause1.webp" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="edu text-center">
+                                    <h5>Donate</h5>
+                                </div>
+                                <h5 class="card-title">Give Food to Homeless Children</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="names my-4">
+                                    <div class="progress w-100">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 78%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                    </div>
+                                    <p class="">Fundraised: Rs.20,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END -->
+
+    <!-- HELP US START -->
+    <section class="help">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between py-5  req">
+                        <h1 class="ms-3">
+                            Help us so we can help others
+                        </h1>
+                        <div class="req-btn me-5">
+                            <a href="schedule_pickup.html">
+                                <button type="button" class="btn btn-danger btn-lg">Donate Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HELP US END -->
+
+    <!-- FOOTER START -->
+    <section class="footer pt-4">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-4">
+                        <form>
+                            <h3 class="text-white">Food-Donation</h3>
+                            <p>Registered as Hunger Heroes. Under Indian Society Registration Act XXI, 1860.</p>
+                            <p>All donations are tax-exempted as eligible under section 80G of the the Income Tax Act,
+                                1961.</p>
+                        </form>
+                    </div>
+
+                    <div class="col-2 offset-1">
+                        <h5>Get To Know Us</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white">Abou
+                                    Us</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html"
+                                    class="nav-link p-0 text-white">Hunger in India</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="campaign.html"
+                                    class="nav-link p-0 text-white">Campaign</a></li>
+                            <li class="nav-item mb-2"><a href="../index.html#ourVolunteers"
+                                    class="nav-link p-0 text-white">Volunteer</a></li>
+                            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-white">Contact
+                                    Us</a></li>
+                            <li class="nav-item mb-2"><a href="about.html#faqs" class="nav-link p-0 text-white">FAQs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Get Involved</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Make a
+                                    Donation</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Give
+                                    Once</a></li>
+                            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0 text-white">Give
+                                    Monthly</a></li>
+                            <li class="nav-item mb-2"><a href="donate.html"
+                                    class="nav-link p-0 text-white">Fundraise</a></li>
+                            <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">More Ways to Give</a> -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Hunger Facts</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hunger"
+                                    class="nav-link p-0 text-white">What is Hunger</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hungerInIndia"
+                                    class="nav-link p-0 text-white">Hunger in India</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#hungerInIndia"
+                                    class="nav-link p-0 text-white">State of Hunger
+                                </a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#keyFacts"
+                                    class="nav-link p-0 text-white">Key Facts</a></li>
+                            <li class="nav-item mb-2"><a href="hunger_in_india.html#impact"
+                                    class="nav-link p-0 text-white">Impact of Hunger</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-between py-5 my-5 border-top">
+                    <p>© 2021 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-twitter fa-2x"></i></a>
+
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+
+                        <li class="ms-3"><a href="#" class="text-white"><i class="fa-brands fa-facebook fa-2x"></i></a>
+
+                    </ul>
+                </div>
+
+                <!-- Back to top button -->
+                <button type="button" class="btn btn-outline-success btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </footer>
+
+        </div>
+    </section>
+    <!-- FOOTER END -->
+
+
+    <!-- js -->
+    <script src="../js/script.js"></script>
+    <!-- bootstrap -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
