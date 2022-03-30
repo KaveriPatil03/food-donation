@@ -118,7 +118,7 @@ p{
 
 /* SLIDER */
 .img1{
-    background-image:linear-gradient(#212529c4,#212529b8), url(../img/slider1.jpg);
+    background-image:linear-gradient(#21252957,#212529a1), url(../img/slider1.jpg);
     min-width: 100%;
     min-height: 625px;
     object-fit: fill;
@@ -126,7 +126,7 @@ p{
     background-size: cover;
 }
 .img2{
-    background-image: linear-gradient(#212529c4,#212529b8), url(../img/slider2.png);
+    background-image: linear-gradient(#21252957,#212529a1), url(../img/slider2.png);
     min-width: 100%;
     min-height: 625px;
     object-fit: fill;
